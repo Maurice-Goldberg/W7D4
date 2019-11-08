@@ -1,0 +1,52 @@
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: $light-gray 1px solid;
+}
+
+.left-nav > ul,
+.right-nav > ul {
+    display: flex;
+    font-size: 11px;
+	font-family: nyt-franklin,helvetica,arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.left-nav > ul > li {
+    color: black;
+    padding: 8px;
+	border-radius: 3px;
+    text-align: center;
+    margin: 5px;
+}
+
+.right-nav > ul > li {
+    margin: 2px;
+}
+
+.right-nav > ul > li:last-of-type {
+
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+    background-color: $lightest-gray;
+}
+
+.left-nav {
+    justify-content: space-between;
+}
+
+
+.right-nav i {
+
+}
+
+#gear-dropdown-btn {
+    font-size: 15px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 3px;
+}
